@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ICU-900</Machine>
+    <WindowsUser>ayoze</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|anycpu</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>com.ionicframework.myionic2app284753</PackageIdentityName>
+    <IntermediateOutputPath>C:\APPs\MyIonic2App\platforms\windows\build\windows\bld\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>F20C79353164B3FBB1EAFC905F1CAA196B9D4253014480B1202948E2C9020F3D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>com.ionicframework.myionic2app284753_0.0.1.0_neutral__h35559jr9hy9m</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>com.ionicframework.myionic2app284753_h35559jr9hy9m!com.ionicframework.myionic2app284753</RegisteredUserModeAppID>
+    <RegisteredPackageID>com.ionicframework.myionic2app284753</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Apache Cordova Team</RegisteredPackagePublisher>
+    <RegisteredVersion>0.0.1.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\APPs\MyIonic2App\platforms\windows\build\windows\debug\anycpu\win8.1\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-23T11:03:26.444</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-23T11:03:17.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-23T11:03:17.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-23T11:03:17.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-23T11:03:17.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <Modified>2016-05-23T11:03:17.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-23T11:03:17.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <Modified>2016-05-23T11:03:17.082</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-23T11:03:17.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-23T11:03:17.098</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\app.html">
+      <PackagePath>www\build\app.html</PackagePath>
+      <Modified>2016-05-23T11:03:24.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\pages\getting-started\getting-started.html">
+      <PackagePath>www\build\pages\getting-started\getting-started.html</PackagePath>
+      <Modified>2016-05-23T11:03:25.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\pages\list\list.html">
+      <PackagePath>www\build\pages\list\list.html</PackagePath>
+      <Modified>2016-05-23T11:03:25.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+      <Modified>2016-05-23T11:03:25.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\css\app.ios.css">
+      <PackagePath>www\build\css\app.ios.css</PackagePath>
+      <Modified>2016-05-23T11:03:24.903</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\css\app.md.css">
+      <PackagePath>www\build\css\app.md.css</PackagePath>
+      <Modified>2016-05-23T11:03:24.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\css\app.wp.css">
+      <PackagePath>www\build\css\app.wp.css</PackagePath>
+      <Modified>2016-05-23T11:03:24.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\ionicons.ttf">
+      <PackagePath>www\build\fonts\ionicons.ttf</PackagePath>
+      <Modified>2016-05-23T11:03:24.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\noto-sans-bold.ttf">
+      <PackagePath>www\build\fonts\noto-sans-bold.ttf</PackagePath>
+      <Modified>2016-05-23T11:03:24.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\noto-sans-regular.ttf">
+      <PackagePath>www\build\fonts\noto-sans-regular.ttf</PackagePath>
+      <Modified>2016-05-23T11:03:24.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\roboto-bold.ttf">
+      <PackagePath>www\build\fonts\roboto-bold.ttf</PackagePath>
+      <Modified>2016-05-23T11:03:24.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\roboto-light.ttf">
+      <PackagePath>www\build\fonts\roboto-light.ttf</PackagePath>
+      <Modified>2016-05-23T11:03:24.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\roboto-medium.ttf">
+      <PackagePath>www\build\fonts\roboto-medium.ttf</PackagePath>
+      <Modified>2016-05-23T11:03:24.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\roboto-regular.ttf">
+      <PackagePath>www\build\fonts\roboto-regular.ttf</PackagePath>
+      <Modified>2016-05-23T11:03:24.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\ionicons.woff">
+      <PackagePath>www\build\fonts\ionicons.woff</PackagePath>
+      <Modified>2016-05-23T11:03:24.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\roboto-bold.woff">
+      <PackagePath>www\build\fonts\roboto-bold.woff</PackagePath>
+      <Modified>2016-05-23T11:03:24.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\roboto-light.woff">
+      <PackagePath>www\build\fonts\roboto-light.woff</PackagePath>
+      <Modified>2016-05-23T11:03:24.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\roboto-medium.woff">
+      <PackagePath>www\build\fonts\roboto-medium.woff</PackagePath>
+      <Modified>2016-05-23T11:03:24.170</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\roboto-regular.woff">
+      <PackagePath>www\build\fonts\roboto-regular.woff</PackagePath>
+      <Modified>2016-05-23T11:03:24.186</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\fonts\ionicons.woff2">
+      <PackagePath>www\build\fonts\ionicons.woff2</PackagePath>
+      <Modified>2016-05-23T11:03:24.133</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\js\app.bundle.js">
+      <PackagePath>www\build\js\app.bundle.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.188</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\js\es6-shim.min.js">
+      <PackagePath>www\build\js\es6-shim.min.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.204</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\js\Reflect.js">
+      <PackagePath>www\build\js\Reflect.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.219</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\js\zone.js">
+      <PackagePath>www\build\js\zone.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.237</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+      <Modified>2016-05-23T11:03:24.502</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\plugins\cordova-plugin-console\www\console-via-logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\console-via-logger.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\plugins\cordova-plugin-console\www\logger.js">
+      <PackagePath>www\plugins\cordova-plugin-console\www\logger.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device\src\windows\DeviceProxy.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\plugins\cordova-plugin-device\www\device.js">
+      <PackagePath>www\plugins\cordova-plugin-device\www\device.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\splashscreen.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\splashscreen.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.304</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-splashscreen\www\windows\SplashScreenProxy.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\src\windows\StatusBarProxy.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\plugins\cordova-plugin-statusbar\www\statusbar.js">
+      <PackagePath>www\plugins\cordova-plugin-statusbar\www\statusbar.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js">
+      <PackagePath>www\plugins\ionic-plugin-keyboard\src\windows\KeyboardProxy.js</PackagePath>
+      <Modified>2016-05-23T11:03:25.357</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+      <Modified>2016-05-23T11:03:24.602</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\www\build\js\app.bundle.js.map">
+      <PackagePath>www\build\js\app.bundle.js.map</PackagePath>
+      <Modified>2016-05-23T11:03:24.417</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+      <Modified>2016-05-23T11:03:24.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\APPs\MyIonic2App\platforms\windows\build\windows\debug\anycpu\win8.1\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-05-23T11:03:26.206</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
