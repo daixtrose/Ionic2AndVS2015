@@ -3,14 +3,13 @@ import {App, Platform, Nav} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
 import {GettingStartedPage} from './pages/getting-started/getting-started';
 import {ListPage} from './pages/list/list';
-import {RMQ} from './pages/page3/page3';
-
-
+import {Page2} from './pages/page2/page2';
 
 @App({
   templateUrl: 'build/app.html',
   config: {} // http://ionicframework.com/docs/v2/api/config/Config/
 })
+
 class MyApp {
   @ViewChild(Nav) nav: Nav;
 
@@ -24,7 +23,7 @@ class MyApp {
     this.pages = [
       { title: 'Getting Started', component: GettingStartedPage },
       { title: 'List', component: ListPage },
-	  { title: 'RMQ', component: RMQ }
+      { title: 'Messaging', component: Page2}
     ];
 
   }
