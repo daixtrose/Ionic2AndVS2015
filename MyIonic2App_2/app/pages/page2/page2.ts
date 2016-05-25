@@ -11,14 +11,16 @@ export class Page2 {
     exchange: string;
     connection: amqp.Connection;
     channel: amqp.Channel;
+    error: any;
     
     constructor() {
-        this.connectionUrl = 'amqp://regioit:Aachen123.@conan.fev.com:5692/';
+        this.connectionUrl = 'amqp://regioit:Aachen123.@conan.fev.com:5692';
         this.exchange = 'cam_messages';
     }
 
     /** SEE: https://www.rabbitmq.com/tutorials/tutorial-five-javascript.html  **/
     setConnection() {
+      //  try {
         amqp.connect(this.connectionUrl, (err: any, connection: amqp.Connection) => {
             this.connection = connection;
             this.connection.createChannel((err: any, channel: amqp.Channel) => {
@@ -26,6 +28,9 @@ export class Page2 {
                 this.channel.assertExchange(this.exchange, 'topic', { durable: false });
             });
         });
+        //} catch (err) {
+          //  this.error = err;
+        //}
 
     }
 
@@ -37,10 +42,13 @@ export class Page2 {
     
     // Close connection
     closeConnection(){
-        if (this.connection)
+        if (this.connection) {
             this.connection.close();
-        else 
+            console.log("SUCCESS: Connection closed");
+        } else { 
             console.log("ATTENTION: Connection to the server has not been set yet");
+            this.error = null;
+        }
     }
   
 }

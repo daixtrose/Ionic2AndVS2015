@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     del = require('del'),
     runSequence = require('run-sequence'),
     argv = process.argv;
-
+var Promise = require('es6-shim').Promise;
 
 /**
  * Ionic hooks
