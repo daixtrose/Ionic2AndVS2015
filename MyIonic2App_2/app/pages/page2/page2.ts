@@ -20,7 +20,7 @@ export class Page2 {
 
     /** SEE: https://www.rabbitmq.com/tutorials/tutorial-five-javascript.html  **/
     setConnection() {
-      //  try {
+    //  try {
         amqp.connect(this.connectionUrl, (err: any, connection: amqp.Connection) => {
             this.connection = connection;
             this.connection.createChannel((err: any, channel: amqp.Channel) => {
@@ -28,9 +28,9 @@ export class Page2 {
                 this.channel.assertExchange(this.exchange, 'topic', { durable: false });
             });
         });
-        //} catch (err) {
-          //  this.error = err;
-        //}
+    // } catch (err) {
+        //  this.error = err;
+    // }
 
     }
 
